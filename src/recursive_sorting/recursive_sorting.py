@@ -41,6 +41,7 @@ def merge_sort(arr):
         rightArr = merge_sort(right)
         arr = merge(leftArr, rightArr)
     return arr
+    
 
 
 # STRETCH: implement an in-place merge sort algorithm
